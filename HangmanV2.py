@@ -1,7 +1,7 @@
 import random
 from bcolors import bcolor
 
-dictonary = ['apple', 'bannana', 'orange', 'mango', 'grape', 'watermelon', 'pineapple']
+dictonary = ['apple', 'banana', 'orange', 'mango', 'grape', 'watermelon', 'pineapple']
 diccount = len(dictonary)
 random = random.randrange(0,diccount)
 word = list(dictonary[random])
